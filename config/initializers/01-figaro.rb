@@ -17,7 +17,6 @@
 APPLICATION_CONFIG = {
   rails_config: %w(
     SECRET_KEY_BASE
-    APPLICATION_NAME
   ),
 
   db_config: %w(
@@ -38,8 +37,6 @@ APPLICATION_CONFIG = {
   app_config: %w(
     MAIL_FROM
     LOG_LEVEL
-    ACCESS_URL
-    FAYE_SECRET
     AUTHENTICATION_SERVER
     AUTHENTICATION_TOKEN
     WHITE_LISTED_IPS
